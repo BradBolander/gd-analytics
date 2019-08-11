@@ -1,0 +1,46 @@
+.btn-primary {
+    padding: 10px 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    line-height: 15px;
+    background: linear-gradient(90deg, #5A1660 0%, #4E1598 100%);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    height: 50px;
+}
+.btn-secondary {
+    border: thin solid #230C41;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: white;
+    text-decoration: none;
+    line-height: 15px;
+}
+.btn-tertiary {
+    border: thin solid #230C41;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: white;
+    text-decoration: none;
+    line-height: 15px;
+}
+.header-link {
+    text-decoration: none;
+}
+body {
+    background-image: url("../images/background.png");
+}
+.site-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+footer {
+    margin: 0 auto;
+    background-color: white;
+}
+.footer-logo {
+    padding: 75px 0px;
+    margin: 0 auto;
+    display: block;
+}
