@@ -14,7 +14,7 @@ const IndexPage = () => (
     <Hero />
     <SubHero />
     <Software />
-    <Contact />
+    <Contact fullSize={true} />
   </Layout>
 )
 
