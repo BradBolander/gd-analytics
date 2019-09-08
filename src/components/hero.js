@@ -16,7 +16,7 @@ const Hero = () => (
             <p style={{ maxWidth: `408px`, marginBottom: `3rem` }}>
                 Leverage automation to eliminate errors and spend time where it matters most - with your customers.
             </p>
-            <Link className="btn-tertiary" to="/page-2/">Learn How</Link>
+            <Link className="btn-tertiary" to="/services">Learn How</Link>
         </div>
        
     </div>
