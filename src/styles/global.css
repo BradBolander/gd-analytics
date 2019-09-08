@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 .btn-primary {
+    transition: all .5s;
     padding: 10px 25px;
     border-radius: 4px;
     text-decoration: none;
@@ -9,15 +12,28 @@
     border: none;
     height: 50px;
 }
+.btn-primary:hover {
+    background-color:white;
+    color: #392554;
+}
+
 .btn-secondary {
+    transition: all .5s;
     border: thin solid #230C41;
     padding: 10px 15px;
     border-radius: 4px;
+    color: #392554;
     background-color: white;
     text-decoration: none;
     line-height: 15px;
 }
+.btn-secondary:hover {
+    background-color:#392554;
+    color: white;
+}
+
 .btn-tertiary {
+    transition: all .5s;
     border: thin solid #230C41;
     padding: 10px 15px;
     border-radius: 4px;
@@ -25,14 +41,23 @@
     text-decoration: none;
     line-height: 15px;
 }
+.btn-tertiary:hover {
+    background-color:#392554;
+    color: white;
+}
+
 .header-link {
     text-decoration: none;
 }
 body {
     background-image: url("../images/background.png");
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+    font-family: 'Poppins', 'sans-serif' !important;
 }
 .site-container {
     max-width: 1100px;
+    padding: 30px;
     margin: 0 auto;
 }
 footer {

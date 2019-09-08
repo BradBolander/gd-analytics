@@ -15,9 +15,9 @@ const Header = ({ siteTitle }) => (
       <Link className="header-logo" to="/">
         <img  src={Logo} />
       </Link>
-      <Link className="header-link" to="/">How Can We Help</Link>
-      <Link className="header-link" to="/">Our Team</Link>
-      <Link to="/" style={{ marginLeft: `30px`, height: `40px` }} className="btn-secondary">Contact Us</Link>
+      <Link className="header-link" to="/services">How Can We Help</Link>
+      <Link className="header-link" to="/team">Our Team</Link>
+      <Link to="/#contact"  style={{ marginLeft: `30px`, height: `40px` }} className="btn-secondary contact">Contact Us</Link>
     </div>
   </header>
 )

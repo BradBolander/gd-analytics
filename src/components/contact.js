@@ -7,7 +7,7 @@ import "../styles/contact.scss"
 const Contact = (props) => (    
     <div style={{ backgroundColor: `white` }}>
         <div className="site-container">
-           <div className="contact">
+           <div id="contact" className="contact">
                 {props.fullSize === true &&
                     <div className="greeting">
                         <div className="image-wrap">
