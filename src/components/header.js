@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
       </Link>
       <Link className="header-link" to="/services">How Can We Help</Link>
       <Link className="header-link" to="/team">Our Team</Link>
-      <Link to="/#contact"  style={{ marginLeft: `30px`, height: `40px` }} className="btn-secondary contact">Contact Us</Link>
+      <a href="#contact"  style={{ marginLeft: `30px`, height: `40px` }} className="btn-secondary contact">Contact Us</a>
     </div>
   </header>
 )

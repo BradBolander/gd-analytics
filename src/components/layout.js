@@ -23,8 +23,12 @@ const Layout = ({ children }) => {
     require("smooth-scroll")('a[href*="#"]')
   }
 
+  const urls = ["team", "services"]
+
+  let siteWrapperStyles = window.location.href.indexOf("team") > -1 ? "site-wrapper" : "site-wrapper site-pattern";
+
   return (
-    <>
+    <div className={siteWrapperStyles}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -37,7 +41,7 @@ const Layout = ({ children }) => {
           <img className="footer-logo" src={Logo} />
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 

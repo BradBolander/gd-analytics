@@ -49,11 +49,16 @@
 .header-link {
     text-decoration: none;
 }
+a {
+    color: #392554;
+}
 body {
+    font-family: 'Poppins', 'sans-serif' !important;
+}
+.site-pattern {
     background-image: url("../images/background.png");
     background-color: rgba(255, 255, 255, 0.4);
     background-blend-mode: lighten;
-    font-family: 'Poppins', 'sans-serif' !important;
 }
 .site-container {
     max-width: 1100px;

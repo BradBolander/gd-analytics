@@ -1,8 +1,10 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Contact from "../components/contact"
 import SEO from "../components/seo"
+import LinkedInIcon from "../images/linkedin.svg"
 import "../styles/team.scss"
 
 const Team = () => (
@@ -21,6 +23,7 @@ const Team = () => (
         <div className="team-member">
             <span className="name">Drew Hanover</span>
             <span className="role">Co-founder</span>
+            <a href="https://www.linkedin.com/in/drew-hanover-b1b9baa5/" target="_blank"><img src={LinkedInIcon} className="li-icon" /></a>
             <span className="specialty">Analytics and Automation Lead</span>
             <p className="description">
                 Racecars, Rockets, and Robots. Extensive experience in statistical methods including machine learning, 
@@ -32,6 +35,7 @@ const Team = () => (
         <div className="team-member">
             <span className="name">Guido Francesco Ritelli, PhD</span>
             <span className="role">Co-founder</span>
+            <a href="https://www.linkedin.com/in/guido-francesco-ritelli-ph-d-72b22554/" target="_blank"><img src={LinkedInIcon} className="li-icon" /></a>
             <span className="specialty">Data Pipeline and Analysis Guru</span>
             <p className="description">
                 Automation, Optimization, and Performance analysis. Deep understanding of data analysis and metrics extraction. 
