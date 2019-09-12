@@ -18,12 +18,12 @@ const Layout = ({ children }) => {
     }
   `)
   
-  let siteWrapperStyles = "";
+  let siteWrapperStyles = "site-pattern";
 
   if (typeof window !== "undefined") {
     // eslint-disable-next-line global-require
     require("smooth-scroll")('a[href*="#"]')
-    siteWrapperStyles = window.location.href.indexOf("team") > -1 ? "site-wrapper" : "site-wrapper site-pattern";
+    siteWrapperStyles = window.location.href.indexOf("team") > -1 ? "site-wrapper" : "";
   }
 
   
