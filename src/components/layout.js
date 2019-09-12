@@ -17,16 +17,16 @@ const Layout = ({ children }) => {
       }
     }
   `)
+  
+  let siteWrapperStyles = "";
 
   if (typeof window !== "undefined") {
     // eslint-disable-next-line global-require
     require("smooth-scroll")('a[href*="#"]')
+    siteWrapperStyles = window.location.href.indexOf("team") > -1 ? "site-wrapper" : "site-wrapper site-pattern";
   }
 
-  const urls = ["team", "services"]
-
-  let siteWrapperStyles = window.location.href.indexOf("team") > -1 ? "site-wrapper" : "site-wrapper site-pattern";
-
+  
   return (
     <div className={siteWrapperStyles}>
       <Header siteTitle={data.site.siteMetadata.title} />
