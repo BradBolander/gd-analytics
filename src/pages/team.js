@@ -10,7 +10,7 @@ import "../styles/team.scss"
 const Team = () => (
   <Layout>
     <SEO title="Our Team" />
-    <div className="site-container" style={{backgroundColor: 'white'}}>
+    <div className="site-container" style={{backgroundColor: '#ffffffab'}}>
         <div className="intro">
             <h1>Our Team</h1>
             <p>
