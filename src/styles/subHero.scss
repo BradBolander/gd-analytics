@@ -7,6 +7,9 @@
     margin: 10rem 0px;
     .inner {
         display: flex;
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+        }
     }
     .left {
         flex-grow: 1;
@@ -25,5 +28,8 @@
             }
             display: flex;
         }
+    }
+    @media screen and (max-width: 600px) {
+        padding: 45px;
     }
 }

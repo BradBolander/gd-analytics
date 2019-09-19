@@ -13,11 +13,20 @@
         min-width: 100px;
         border-radius: 50%;
         margin-right: 50px;
+        @media screen and (max-width: 600px) {
+            margin-right: 0px;
+            width: 100px;
+            margin: 0 auto;
+            margin-bottom: 25px;
+        }
     }
     .title {
 
     }
     .content {
 
+    }
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
     }
 }

@@ -11,10 +11,10 @@
     color: white;
     border: none;
     height: 50px;
+    cursor: pointer;
 }
 .btn-primary:hover {
     background-color:white;
-    color: #392554;
 }
 
 .btn-secondary {
@@ -26,6 +26,7 @@
     background-color: white;
     text-decoration: none;
     line-height: 15px;
+    cursor: pointer;
 }
 .btn-secondary:hover {
     background-color:#392554;
@@ -40,6 +41,8 @@
     background-color: white;
     text-decoration: none;
     line-height: 15px;
+    cursor: pointer;
+    font-weight: bold;
 }
 .btn-tertiary:hover {
     background-color:#392554;

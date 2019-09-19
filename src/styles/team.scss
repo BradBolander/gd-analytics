@@ -13,16 +13,16 @@
 .team-member {
     margin-bottom: 100px;
     .li-icon {
+        background-color: transparent;
         height: 20px;
-        margin-bottom: 0px;
-        margin-left: 20px;
+        width: 19px;
+        display: flex;
+        float: left;
+        margin-right: 15px;
     }
     .name {
         font-weight: bold;
         margin-right: 20px;
-    }
-    .role {
-        
     }
     .specialty {
         display: block;

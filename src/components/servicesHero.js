@@ -10,7 +10,7 @@ const ServicesHero = () => (
             <h1>
                 Our Services
             </h1>
-            <p style={{ marginBottom: `3rem`, fontSize: `28px`, lineHeight: `1.2` }}>
+            <p>
                 Through data analytics and automation, GD Analytics will enhance the capabilities of businesses that want to leverage data to drive better decisions.
             </p>
         </div>

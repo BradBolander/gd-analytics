@@ -21,9 +21,9 @@ const Team = () => (
             </p>
         </div>
         <div className="team-member">
+            <a href="https://www.linkedin.com/in/drew-hanover-b1b9baa5/" target="_blank"><img src={LinkedInIcon} className="li-icon" /></a>
             <span className="name">Drew Hanover</span>
             <span className="role">Co-founder</span>
-            <a href="https://www.linkedin.com/in/drew-hanover-b1b9baa5/" target="_blank"><img src={LinkedInIcon} className="li-icon" /></a>
             <span className="specialty">Analytics and Automation Lead</span>
             <p className="description">
                 Racecars, Rockets, and Robots. Extensive experience in statistical methods including machine learning, 
@@ -33,9 +33,9 @@ const Team = () => (
             </p>
         </div>
         <div className="team-member">
+            <a href="https://www.linkedin.com/in/guido-francesco-ritelli-ph-d-72b22554/" target="_blank"><img src={LinkedInIcon} className="li-icon" /></a>
             <span className="name">Guido Francesco Ritelli, PhD</span>
             <span className="role">Co-founder</span>
-            <a href="https://www.linkedin.com/in/guido-francesco-ritelli-ph-d-72b22554/" target="_blank"><img src={LinkedInIcon} className="li-icon" /></a>
             <span className="specialty">Data Pipeline and Analysis Guru</span>
             <p className="description">
                 Automation, Optimization, and Performance analysis. Deep understanding of data analysis and metrics extraction. 
