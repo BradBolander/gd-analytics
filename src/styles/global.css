@@ -55,6 +55,14 @@
 a {
     color: #392554;
 }
+.no-scroll {
+    left: 0;
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    touch-action: none;
+}
 body {
     font-family: 'Poppins', 'sans-serif' !important;
 }

@@ -11,11 +11,11 @@
          margin-bottom: 3rem; 
          font-size: 28px; 
          line-height: 1.2;
-         @media screen and (max-width: 600px) {
+         @media screen and (max-width: 800px) {
             font-size: 20px;
         }
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 800px) {
         padding: 40px 0px;
     }
 }
